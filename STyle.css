@@ -1,0 +1,512 @@
+body{
+    margin: 0px;
+}
+.row{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+.starttext{
+    width: 500px;
+    background-color:white;
+    margin-left: 22px;
+    float: left;
+    padding-top: 40px;
+    padding-left: 12px;
+}
+.logo{
+    width: 500px;
+    height: 58px;
+    background-color:white;
+    float: left;
+}
+.endtext{
+    width: 428px;
+    height: 58px;
+    background-color:white;
+    float: left;
+}
+#hm{
+    width: 69px;
+    height: 40px;
+    margin-left: 165px;
+    margin-top: 39px;
+}
+.dropbtn {
+    background-color: white;
+    color: black;
+    margin-top: 44px;
+    font-size: 13px;
+    border: none;
+    margin-left: 105px;
+    font-family: sans-serif;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 45px;   
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 3px 0px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: white;}
+  .signinbtn{
+    background-color: black;
+    color: white;
+    width: 162px;
+    height: 52px;
+  }
+  .row1{
+    width: 100%;
+    height: 23px;
+    background-color: white;
+    padding-left: 455px;
+    padding-top: 26px;
+    text-decoration: none;
+    color: black;
+    font-family: "HM Sans Regular", "HMSans-Regular", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 20px;
+    
+  }
+  #inp {
+    margin-left: 266px;
+    border: none;
+    outline: none;
+   }
+   button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+    margin-left: -204px;
+  }
+  #heart { 
+    position: relative; 
+    width: 100px; 
+    height: 90px; 
+} 
+
+#heart:before, #heart:after { 
+    position: absolute; 
+    content: ""; 
+    left: 50px; 
+    top: 0; 
+    width: 50px; 
+    height: 80px; 
+    border-radius: 50px 50px 0 0; 
+    transform: rotate(-45deg); 
+    transform-origin: 0 100%; 
+} 
+
+#heart:after { 
+    left: 0; 
+    transform: rotate(45deg); 
+    transform-origin :100% 100%; 
+}
+.row2{
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+.box1{
+    width: 200px;
+    height: 230px;
+    background-color: antiquewhite;
+    margin-left: 250px;
+    margin-top: 49px;
+    float: left;
+}
+.stock{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(24, 220, 220);
+    float: left;
+    margin-top: 155px;
+}
+#ptag {
+    background-color: black;
+    height: 70px;
+    position: relative;
+    width: 213px;
+    margin-left: 694px;
+    margin-top: 220px;
+    border-radius: 4px;
+  }
+  #ptag:after {
+    content: ' ';
+    height: 50px;
+    position: absolute;
+    width: 50;
+    border: 10px solid transparent;
+    border-top-color: #333;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+  }
+  .p1{
+    width: 50px;
+    height: 25px;
+    color: white;
+    margin-left: 20px;
+    padding-top: 16px;
+
+  }
+  .p2{
+    width: 157px;
+    height: 25px;
+    color: white;
+    margin-top: -4px;
+    margin-left: 20px;
+    font-size: 17px;
+    
+  }
+  .img{
+    width: 200px;
+    height: 100px;
+    margin-left: 394px;
+  }
+  .shopbtn{
+    width: 102px;
+    height: 100px;
+    margin-left: 685px;
+    margin-top: 57px;
+  }
+  .shopbtn1:hover {
+    background-color: #ddd;
+  }
+  .row3{
+    width: 960px;
+    height: 134px;
+    background-color: antiquewhite;
+    margin-top: 179px;
+    margin-left: 250px;
+  }
+  .t1{
+    margin-left: 90px;
+    color: white;
+    font-weight: bold;
+    margin-top: 19px;
+    font-size: 16px;
+  }
+  .t2{
+    width: 289px;
+    margin-top: -15px;
+    margin-left: 54px;
+    color: white;
+  }
+  .img2{
+     
+  }
+  #ttag{
+    width: 348px;
+    height: 50px;
+    margin-left: 301px;
+    margin-top: -298px;
+    color: white;
+    font-size: 47px;
+    line-height: 1.14286;
+    margin-bottom: 10px;
+    font-family: HM Sans Bold, HMSansHebrew-Bold, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+  }
+  #ttag2{
+    width: 320px;
+    height: 50px;
+    margin-left: 301px;
+    color: white;
+    font-size: 14px;
+    margin-top: 66px;
+    font-family: fangsong;
+    }
+    .shopbtn2{
+      width: 102px;
+    height: 100px;
+    margin-left: 300px;
+    margin-top: -2px;
+    }
+    .shopbtn3:hover {
+      background-color: #ddd;
+    }
+    .row4{
+      width: 360px;
+    height: 28px;
+    margin-top: -9px;
+    background: white;
+    font-family: "HM Sans Semi Bold", "HMSans-SemiBold", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 20px;
+    margin-left: 247px;
+    }
+    .arrowleft{
+      width: 20px;
+      height: 10px;
+    }
+    .container1{
+      width: 100%;
+      height: 300px;
+    }
+    .r2{
+      width: 158px;
+      margin-left: -15px;
+    }
+    .card1{
+      width: 150px;
+      height: 300px;
+      float: left;
+      margin-left: 245px;
+    }
+    .card2{
+      width: 150px;
+      height: 200px;
+      float: left;
+      margin-left: 10px;
+      
+    }
+    .card3{
+      width: 150px;
+      height: 200px;
+      float: left;
+      margin-left: 10px;
+      
+    }
+    .card4{
+      width: 150px;
+      height: 200px;
+      float: left;
+      margin-left: 10px;
+      
+    }
+    .card5{
+      width: 150px;
+      height: 200px;
+      float: left;
+      margin-left: 20px;
+      
+    }
+    .card6{
+      width: 150px;
+      height: 200px;
+      float: left;
+      margin-left: 20px;
+      
+    }
+    .imgc1{
+      width: 150px;
+      height: 200px;
+    }
+    .imgc2{
+      
+      width: 150px;
+      height: 200px;
+    }
+    .imgc3{
+      width: 150px;
+      height: 200px;
+    }
+    .imgc4{
+      width: 150px;
+      height: 200px;
+    }
+    .imgc5{
+      width: 150px;
+      height: 200px;
+    }
+    .imgc6{
+      width: 150px;
+      height: 200px;
+    }
+    .h5{
+      width: 148px;
+      height: 17px;
+      margin-top: 3px;
+    }
+    .shopbtn4{
+      width: 102px;
+    height: 100px;
+    margin-left: 650px;
+    margin-top: -2px;
+    }
+    .shopbtn5:hover {
+      background-color: #ddd;
+    }
+    .leftarrow{
+      width: 50px;
+      height: 50px;
+      margin-left: 200px;
+      margin-top: 10px;
+
+    }
+    .commentbox2{
+      width: 100px;
+      height: 100px;
+      background-color: black;
+    }
+    .box4{
+      width: 100%;
+      height: 600px;
+    }
+    .content{
+      width: 400px;
+      height: 47px;
+      margin-top: -184px;
+      margin-left: 575px;
+    }
+    .row5{
+      width: 960px;
+      height: 88px;
+      margin-left: 248px;
+      margin-top: 20px;
+    }
+    .shopbtn6{
+      width: 102px;
+    height: 100px;
+    margin-left: 650px;
+    margin-top: -2px;
+    }
+    .shopbtn7:hover {
+      background-color: #ddd;
+    }
+    .box5{
+      width: 200px;
+    height: 230px;
+    background-color: antiquewhite;
+    margin-left: 0px;
+    margin-top: -33px;
+    float: left;
+  }
+  #ptag2 {
+    background-color: black;
+    height: 70px;
+    position: relative;
+    width: 213px;
+    margin-left: 12px;
+    margin-top: 220px;
+    border-radius: 4px;
+  }
+  #ptag2:after {
+    content: ' ';
+    height: 50px;
+    position: absolute;
+    width: 50;
+    border: 10px solid transparent;
+    border-top-color: #333;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+  }
+  .shopbtn8{
+    width: 102px;
+  height: 100px;
+  margin-left: 650px;
+  margin-top: -2px;
+  }
+  .shopbtn9:hover {
+    background-color: #ddd;
+  }
+  .p3{
+    width: 50px;
+    height: 25px;
+    color: white;
+    margin-left: 20px;
+    padding-top: 16px;
+
+  }
+  .p4{
+    width: 160px;
+    height: 25px;
+    color: white;
+    margin-top: -4px;
+    margin-left: 20px;
+    font-size: 17px;
+    
+  }
+  .footer{
+    width: 100%;
+    height: 590px;
+    background-color: #e5e5e5;
+    margin-top: 647px;
+  }
+  .col1{
+    width: 200px;
+    height: 270px;
+    margin-left: 247px;
+    margin-top: 75px;
+    float: left;
+  }
+  .col2{
+    width: 200px;
+    height: 270px;
+    margin-left: 60px;
+    margin-top: 75px;
+    float: left;
+  }
+  .col3{
+    width: 200px;
+    height: 270px;
+    margin-left: 59px;
+    margin-top: 75px;
+    float: left;
+  }
+  .col4{
+    width: 245px;
+    height: 270px;
+    margin-top: 75px;
+    float: left;
+  }
+  .symbols{
+    width: 100%;
+    height: 50px;
+    float: left;
+  }
+ .fc1{
+  width: 40%;
+  height: 22px;
+  float: left;
+  margin-left: 455px;
+ }
+ #hm2{
+  width: 54px;
+  height: 34px;
+  margin-left: 690px;
+  margin-top: 31px;
+}
+.logo2{
+  width: 100px;
+  height: 50px;
+}
+.ft2{
+  width: 107px;
+    height: 60px;
+    float: left;
+    margin-left: -366px;
+    margin-top: 85px;
+    font-family: "HM Sans Semi Bold", "HMSans-SemiBold", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+.underline{
+  text-decoration: dashed;
+}
